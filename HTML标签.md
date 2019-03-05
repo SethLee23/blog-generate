@@ -1,0 +1,633 @@
+---
+title: HTML标签
+date: 2019-03-04 19:28:56
+tags:HTML标签，属性
+---
+# HTML标签列表(以下分为12个类别)
+## 一、基础
+<table border="1" border-collapse="collapse">
+<style>
+    table{
+        width:500px;
+    }
+</style>
+<tr>
+<th>标签</th>
+<th>描述</th>
+</tr>
+<tr>
+<td>&lt;html&gt;</td>
+<td>定义HTML文档</td>
+</tr>
+<tr>
+<td>&lt;title&gt;</td>
+<td>定义文档标题</td>
+</tr>
+<tr>
+<td>&lt;body&gt;</td>
+<td>定义文档主体</td>
+</tr>
+<tr>
+<td>&lt;h1&gt;to&lt;h6&gt;</td>
+<td>定义HTML文档的标题，字体由大到小，&lt;h1&gt;最大</td>
+</tr>
+<tr>
+<td>&lt;p&gt;</td>
+<td>定义段落</td>
+</tr>
+<tr>
+<td>&lt;br&gt;</td>
+<td>定义简单的换行</td>
+</tr>
+<tr>
+<td>&lt;hr&gt;</td>
+<td>定义水平线</td><!--可以用border-bottom定义下划线-->
+</tr>
+<tr>
+<td>&lt;--!注释内容--&gt;</td>
+<td>定义注释</td>
+</tr>
+</table>
+
+
+## 二、表单
+<table border="1" border-collapse="collapse">
+<style>
+    table{
+        width:500px;
+    }
+</style>
+<tr>
+<th>标签</th>
+<th>描述</th>
+</tr>
+<tr>
+<td>&lt;form&gt;</td>
+<td>定义供用户输入的HTML表单</td>
+</tr>
+<tr>
+<td>&lt;input&gt;</td>
+<td>定义输入控件</td>
+</tr>
+<tr>
+<td>&lt;textarea&gt;</td>
+<td>定义多行文本输入的控件</td>
+</tr>
+<tr>
+<td>&lt;button&gt;</td>
+<td>定义按钮</td>
+</tr>
+<tr>
+<td>&lt;select&gt;</td>
+<td>定义选择列表（下拉列表）</td>
+</tr>
+<tr>
+<td>&lt;optgroup&gt;</td><!--<optgroup label="xxx"=></optgroup>,用这个标签可以将相关的option组合起来，另一个属性是disabled，禁用某组选项-->
+<td>定义选择列表中相关选项的组合</td>
+</tr>
+<tr>
+<td>&lt;option&gt;</td>
+<td>定义选择列表中的选项。</td>
+</tr>
+<tr>
+<td>&lt;label&gt;</td>
+<td>定义 input 元素的标注</td>
+</tr>
+<tr>
+<td>&lt;fieldset&gt;</td>
+<td>定义围绕表单中元素的边框</td>
+</tr>
+<tr>
+<td>&lt;legend&gt;</td>
+<td>定义fieldset元素的标题</td>
+</tr>
+<tr>
+<td>&lt;datalist&gt;</td>
+<td>定义下拉列表，目前除了Internet Explorer和Safari，所有主流浏览器都支持此标签</td><!--html5新标签，使用 input 元素的list属性来绑定 datalist-->
+</tr>
+<tr>
+<td>&lt;keygen&gt;</td><!--HTML5新标签-->
+<td>定义生成密钥</td>
+</tr>
+<tr>
+<td>&lt;output&gt;</td>
+<td>定义输出的一些类型</td>
+</tr>
+</table>
+
+
+## 三、表格
+<table border="1" border-collapse="collapse">
+<style>
+    table{
+        width:500px;
+    }
+</style>
+<tr>
+<th>标签</th>
+<th>描述</th>
+</tr>
+<tr>
+<td>&lt;table&gt;</td>
+<td>定义表格</td>
+</tr>
+<tr>
+<td>&lt;caption&gt;</td>
+<td>定义表格标题</td>
+</tr>
+<tr>
+<td>&lt;th&gt;</td>
+<td>定义表格中的表头单元格</td>
+</tr>
+<tr>
+<td>&lt;tr&gt;</td>
+<td>定义表格中的行</td>
+</tr>
+<tr>
+<td>&lt;td&gt;</td>
+<td>定义表格中的单元</td>
+</tr>
+<tr>
+<td>&lt;thead&gt;</td>
+<td>定义表格中的表头内容</td>
+</tr>
+<tr>
+<td>&lt;tbody&gt;</td>
+<td>定义表格中的主体内容</td>
+</tr>
+<tr>
+<td>&lt;tfoot&gt;</td>
+<td>定义表格中的表注内容（脚注）</td>
+</tr>
+<tr>
+<td>&lt;col&gt;</td>
+<td>定义表格中一个或多个列的属性值</td><!--相比较colgroup，col需要一列一列定义，colgroup可以用span属性横跨几列-->
+</tr>
+<tr>
+<td>&lt;colgroup&gt;</td>
+<td>定义表格中供格式化的列组</td>
+</tr>
+</table>
+
+## 四、列表
+<table border="1" border-collapse="collapse">
+<style>
+    table{
+        width:500px;
+    }
+</style>
+<tr>
+<td>标签</td>
+<td>描述</td>
+</tr>
+<tr>
+<td>&lt;ul&gt;</td>
+<td>定义无序列表</td>
+</tr>
+<tr>
+<td>&lt;ol&gt;</td>
+<td>定义有序列表</td>
+</tr>
+<tr>
+<td>&lt;li&gt;</td>
+<td>定义列表的项目</td>
+</tr>
+<tr>
+<td>&lt;dir&gt;</td>
+<td>定义目录列表</td>
+</tr>
+<tr>
+<td>&lt;dl&gt;</td>
+<td>定义定义列表</td>
+</tr>
+<tr>
+<td>&lt;dt&gt;</td>
+<td>定义定义列表中的项目</td>
+</tr>
+<tr>
+<td>&lt;dd&gt;</td>
+<td>定义定义列表中项目的描述</td>
+</tr>
+<tr>
+<td>&lt;menu&gt;</td>
+<td>定义命令的菜单/列表，目前所有的主流浏览器都不支持此标签</td>
+</tr>
+<tr>
+<td>&lt;menuitem&gt;</td>
+<td>定义用户可以从弹出菜单调用的命令/菜单项目，目前仅Firefox 8.0以及更高的版本支持</td>
+</tr>
+<tr>
+<td>&lt;command&gt;</td>
+<td>定义命令按钮，HTML5新标签，只有 Internet Explorer9（更早或更晚的版本都不支持）支持此标签</td>
+</tr>
+</table>
+
+## 五、框架
+<table border="1" border-collapse="collapse">
+<style>
+    table{
+        width:500px;
+    }
+</style>
+<tr>
+<td>标签</td>
+<td>描述</td>
+</tr>
+<tr>
+<td>&lt;frame&gt;</td>
+<td>定义框架集的窗口或框架</td>
+</tr>
+<tr>
+<td>&lt;frameset&gt;</td><!--只有rows&cols-->
+<td>定义框架集</td>
+</tr>
+<tr>
+<td>&lt;noframes&gt;</td>
+<td>定义针对不支持框架的用户的替代内容</td>
+</tr>
+<tr>
+<td>&lt;iframe&gt;</td><!--sandbox属性-->
+<td>定义内联框架</td>
+</tr>
+</table>
+
+## 六、图像
+<table border="1" border-collapse="collapse">
+<style>
+    table{
+        width:500px;
+    }
+</style>
+<tr>
+<td>标签</td>
+<td>描述</td>
+</tr>
+<td>&lt;img&gt;</td>
+<td>定义图像</td>
+</tr>
+<tr>
+<td>&lt;map&gt;</td>
+<td>定义图像映射</td><!--通常与<img>配合使用-->
+</tr>
+<tr>
+<td>&lt;area&gt;</td>
+<td>定义图像地图内部的区域</td><!--总是嵌套在map中-->
+</tr>
+<tr>
+<td>&lt;canvas&gt;</td>
+<td>定义图形， 标签只是图形容器，您必须使用脚本来绘制图形，HTML5新标签</td>
+</tr>
+<tr>
+<td>&lt;figure&gt;</td>
+<td>定义媒介内容的分组，以及它们的标题，HTML5新标签</td>
+</tr>
+<tr>
+<td>&lt;figcaption&gt;</td>
+<td>定义 figure 元素的标题，HTML5新标签</td>
+</tr>
+</table>
+
+## 七、音频/视频（以下所有标签都是HTML5新标签）
+<table border="1" border-collapse="collapse">
+<style>
+    table{
+        width:500px;
+    }
+</style>
+<tr>
+<td>标签</td>
+<td>描述</td>
+</tr>
+<tr>
+<td>&lt;audio&gt;</td>
+<td>定义声音内容</td>
+</tr>
+<tr>
+<td>&lt;source&gt;</td>
+<td>定义媒介源，一般音频和视频都需要多个源文件来保证正常播放</td>
+</tr>
+<tr>
+<td>&lt;track&gt;</td>
+<td>定义用在媒体播放器中的文本轨道，Internet Explorer 10, Chrome 以及 Opera 支持此标签</td>
+</tr>
+<tr>
+<td>&lt;video&gt;</td>
+<td>定义视频</td>
+</tr>
+</table>
+
+## 八、链接
+<table border="1" border-collapse="collapse">
+<style>
+    table{
+        width:500px;
+    }
+</style>
+<tr>
+<td>标签</td>
+<td>描述</td>
+</tr>
+<tr>
+<td>&lt;a&gt;</td>
+<td>定义锚</td>
+</tr>
+<tr>
+<td>&lt;link&gt;</td>
+<td>定义文档与外部资源的关系</td>
+</tr>
+<tr>
+<td>&lt;nav&gt;</td>
+<td>定义导航链接，一般和&lt;a&gt;嵌套使用，HTML5新标签</td>
+</tr>
+</table>
+
+## 九、样式/节
+<table border="1" border-collapse="collapse">
+<style>
+    table{
+        width:500px;
+    }
+</style>
+<tr>
+<td>标签</td>
+<td>描述</td>
+</tr>
+<tr>
+<td>&lt;style&gt;</td>
+<td>定义文档的样式信息</td>
+</tr>
+<tr>
+<td>&lt;div&gt;</td>
+<td>定义文档中的节，用于页面布局，块元素</td>
+</tr>
+<tr>
+<td>&lt;span&gt;</td>
+<td>定义文档中的节，行内元素</td>
+</tr>
+<tr>
+<td>&lt;header&gt;</td>
+<td>定义 section 或 page 的页眉</td>
+</tr>
+<tr>
+<td>&lt;main&gt;</td>
+<td>标签规定文档的主要内容</td>
+</tr>
+<tr>
+<td>&lt;footer&gt;</td>
+<td>定义 section 或 page 的页脚</td>
+</tr>
+<tr>
+<td>&lt;section&gt;</td>
+<td>定义节/section</td>
+</tr>
+<tr>
+<td>&lt;artical&gt;</td>
+<td>定义文章</td>
+</tr>
+<tr>
+<td>&lt;aside&gt;</td>
+<td>定义页面内容之外的内容</td>
+</tr>
+<tr>
+<td>&lt;details&gt;</td>
+<td>用于描述文档或文档某个部分的细节，目前只有Chrome和 Safari6支持此标签</td><!--与summary标签嵌套使用-->
+</tr>
+<tr>
+<td>&lt;dialog&gt;</td>
+<td>定义对话框或窗口，属性值只有open，目前只有Chrome和 Safari6支持标签</td>
+</tr>
+<tr>
+<td>&lt;summary&gt;</td>
+<td>为&lt;details&gt;元素定义可见的标题</td>
+</tr>
+<td colspan="2">注意：以上除了&lt;style&gt;，&lt;div&gt;，&lt;span&gt;，其他都是HTML5新标签</td>
+<tr>
+</tr>
+</table>
+
+## 十、元信息
+<table border="1" border-collapse="collapse">
+<style>
+    table{
+        width:500px;
+    }
+</style>
+<tr>
+<td>标签</td>
+<td>描述</td>
+</tr>
+<tr>
+<td>&lt;head&gt;</td>
+<td>定义文档的头部，他是所有头部元素的容器</td>
+</tr>
+<tr>
+<td>&lt;meta&gt;</td>
+<td>元素可提供有关页面的元信息（meta-information），比如针对搜索引擎和更新频度的描述和关键词</td>
+</tr>
+<tr>
+<td>&lt;base&gt;</td>
+<td>定义页面中所有链接的默认地址或默认目标,定义基准URL后，下面的链接可设置相对地址，浏览器会根据基准URL来寻找链接中的内容</td>
+</tr>
+<tr>
+<td>&lt;basefont&gt;</td>
+<td>不赞成使用。定义页面中文本的默认字体、颜色或尺寸</td>
+</tr>
+</table>
+
+## 十一、编程
+<table border="1" border-collapse="collapse">
+<style>
+    table{
+        width:500px;
+    }
+</style>
+<tr>
+<td>标签</td>
+<td>描述</td>
+</tr>
+<tr>
+<td>&lt;script&gt;</td>
+<td>定义客户端脚本</td>
+</tr>
+<tr>
+<td>&lt;noscript&gt;</td>
+<td>定义针对不支持客户端脚本的用户的替代内容</td>
+</tr>
+<tr>
+<td>&lt;applet&gt;</td>
+<td>定义嵌入的applet，HTML5中不支持使用，可以使用object元素代替</td>
+</tr>
+<tr>
+<td>&lt;embed&gt;</td>
+<td>为外部应用程序（非 HTML）定义容器，HTML5新标签</td>
+</tr>
+<tr>
+<td>&lt;object&gt;</td>
+<td>定义嵌入的对象</td>
+</tr>
+<tr>
+<td>&lt;param&gt;</td>
+<td>定义嵌入的参数</td>
+</tr>
+</table>
+
+## 十二、格式
+<table border="1" border-collapse="collapse">
+<style>
+    table{
+        width:500px;
+    }
+</style>
+<tr>
+<td>标签</td>
+<td>描述</td>
+<tr>
+<td>&lt;acronym&gt;</td>
+<td>定义首字母缩写，HTML5中不支持此标签，建议用&lt;abbr&gt;</td>
+</tr>
+<tr>
+<td>&lt;abbr&gt;</td>
+<td>定义缩写</td>
+</tr>
+<tr>
+<td>&lt;b&gt;</td>
+<td>定义粗体</td>
+</tr>
+<tr>
+<td>&lt;bdi&gt;</td>
+<td>定义文本的文本方向，使其脱离其周围文本的方向设置，HTML5新标签，目前只有Firefox和Chrome支持</td>
+</tr>
+<tr>
+<td>&lt;bdo&gt;</td>
+<td>定义文字方向</td>
+</tr>
+<tr>
+<td>&lt;big&gt;</td>
+<td>定义大号文字</td>
+</tr>
+<tr>
+<td>&lt;blockquote&gt;</td>
+<td>定义长的/块引用，浏览器经常会在左、右两边进行缩进（增加外边距），而且有时会使用斜体</td>
+</tr>
+<tr>
+<td>&lt;center&gt;</td>
+<td>定义居中文本，不建议使用，可用css代替</td>
+</tr>
+<tr>
+<td>&lt;cite&gt;</td>
+<td>通常表示它所包含的文本对某个参考文献的引用，比如书籍或者杂志的标题，以斜体显示</td>
+</tr>
+<tr>
+<td>&lt;code&gt;</td>
+<td>表示计算机源代码或者其他机器可以阅读的文本内容，此标签通常只是把文本变成等宽字体，但它暗示着这段文本是源程序代码</td>
+</tr>
+<tr>
+<td>&lt;del&gt;</td>
+<td>定义被删除的文本</td>
+</tr>
+<tr>
+<td>&lt;ins&gt;</td>
+<td>定义被插入文本</td>
+</tr>
+<tr>
+<td>&lt;dfn&gt;</td>
+<td>标记那些对特殊术语或短语的定义，浏览器通常用斜体来显示</td>
+</tr>
+<tr>
+<td>&lt;em&gt;</td>
+<td>标签告诉浏览器把其中的文本表示为强调的内容。对于所有浏览器来说，这意味着要把这段文字用斜体来显示</td>
+</tr>
+<tr>
+<td>&lt;font&gt;</td>
+<td>定义文本的字体、尺寸和颜色，不赞成使用</td>
+</tr>
+<tr>
+<td>&lt;i&gt;</td>
+<td>定义斜体文字</td>
+</tr>
+<tr>
+<td>&lt;kbd&gt;</td>
+<td>定义键盘文档</td>
+</tr>
+<tr>
+<td>&lt;mark&gt;</td>
+<td>定义带有记号的文本，HTML5新标签</td>
+</tr>
+<tr>
+<td>&lt;meter&gt;</td>
+<td>定义已知范围或分数值内的标量测量。也被称为 gauge（尺度）Firefox,Chrome,Opera以及Safari 6支持，HTML5新标签</td><!--用value属性，max，min属性就可以定义一个类似进度条的图标-->
+</tr>
+<tr>
+<td>&lt;pre&gt;</td>
+<td>定义预览格式文本，被包围在pre元素中的文本通常会保留空格和换行符。而文本也会呈现为等宽</td>
+</tr>
+<tr>
+<td>&lt;progress&gt;</td>
+<td>定义任何类型的任务的进度</td><!--不定义value会导致进度条左右浮动，通常与JavaScript一起使用-->
+</tr>
+<tr>
+<td>&lt;q&gt;</td>
+<td>定义短的应用，浏览器经常在引用的内容周围添加引号</td>
+</tr>
+<tr>
+<td>&lt;rp&gt;</td>
+<td>定义若浏览器不支持 ruby 元素显示的内容，HTML5新标签</td><!--语法：漢 <rt><rp>（</rp>ㄏㄢˋ<rp>）</rp></rt>-->
+</tr>
+<tr>
+<td>&lt;rt&gt;</td>
+<td>定义ruby注释的解释，HTML5新标签</td>
+</tr>
+<tr>
+<td>&lt;ruby&gt;</td>
+<td>定义注释（中文注音或字符），HTML5新标签</td>
+</tr>
+<tr>
+<td>&lt;s&gt;</td>
+<td>定义加删除线文本，不赞成使用，用&lt;del&gt;元素代替</td>
+</tr>
+<tr>
+<td>&lt;samp&gt;</td>
+<td>定义计算机代码样本，表示一段用户应该对其没有什么其他解释的文本字符。要从正常的上下文抽取这些字符时，通常要用到这个标签</td>
+</tr>
+<tr>
+<td>&lt;small&gt;</td>
+<td>定义小号文本</td>
+</tr>
+<tr>
+<td>&lt;strike&gt;</td>
+<td>定义加删除线文本，不建议使用</td>
+</tr>
+<tr>
+<td>&lt;strong&gt;</td>
+<td>定义语气更强的强调文本内容，通常是用加粗的字体（相对于斜体）来显示其中的内容</td>
+</tr>
+<tr>
+<td>&lt;sup&gt;</td>
+<td>定义上标文本</td>
+</tr>
+<tr>
+<td>&lt;sub&gt;</td>
+<td>定义下标文本</td>
+</tr>
+<tr>
+<td>&lt;time&gt;</td>
+<td>定义时间，HTML5新标签</td>
+</tr>
+<tr>
+<td>&lt;tt&gt;</td>
+<td>定义打字机文本，呈现类似打字机或者等宽的文本效果</td>
+</tr>
+<tr>
+<td>&lt;u&gt;</td>
+<td>定义下划线文本，尽量避免使用，用户容易混淆为超链接</td>
+</tr>
+<tr>
+<td>&lt;var&gt;</td>
+<td>定义文本中的变量部分</td><!--经常与<code><pre>标签一起使用，用来显示计算机编程代码范例及类似方面的特定元素。-->
+</tr>
+<tr>
+<td>wbr&gt;</td>
+<td>定义&lt;可能的换行符，所有浏览器都支持，除了Internet Explorer</td><!--相比较<br>,<wbr>有开始和结束标签，规定文本在什么地方换行-->
+</tr>
+</table>
+文档参考：<http://www.w3school.com.cn>
